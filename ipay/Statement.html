@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css" />
+    <title>iPay</title>
+</head>
+<body>
+    <div class="account">
+        <h1>Statement of Account</h1>
+    </div>
+    <div class="account-details">
+        <table>
+            <tr>
+                 <td>Main Partner:</td>
+            <td>
+              <select>
+                <option>IPAY</option>
+              </select>
+            </td>
+            </tr>
+             <tr>
+            <td>Ledger Head:</td>
+            <td>
+              <select>
+                <option>--Select--</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Currency: </td>
+            <td>
+                <input type="radio" name="USD"/>USD
+                <input type="radio" name="Local"/>Local
+                <input type="radio" name="USD"/>USD
+            </td>
+          </tr>
+          <tr>
+            <td>Date:</td>
+            <td>From: <input type="date" /></td>
+            <td>To: <input type="date"/></td>
+          </tr>
+          <tr>
+            <td>Report Type: </td>
+            <td>
+                <input type="radio" name="Summary"/>Summary Report
+                <input type="radio" name="Summary"/>Details Report <br>
+                <input type="checkbox" name="show">Show Opening Balance
+                <input type="checkbox" name="show">Show By Sent Date Wise
+            </td>
+
+          </tr>
+          <tr>
+            <td>
+            <input type="button" value= "View Details">
+            <input type="button" value= "Reset">
+            </td>
+          </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+.container {
+  background-color: #29c5f6;
+  color: white;
+  font-size: 10px;
+  padding: 1px;
+  padding-left: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.box-container {
+  background-color: lightgray;
+  height: 550px;
+  width: auto;
+}
+tr td {
+  padding: 6px 6px;
+  margin: 4px;
+  font-family: "Poppins", sans-serif;
+  color: lightslategray;
+  gap: 2rem;
+}
+.account {
+  background-color: #29c5f6;
+  color: white;
+  font-size: 10px;
+  padding: 1px;
+  padding-left: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.account-details {
+  background-color: lightgray;
+  height: 550px;
+  width: auto;
+}
+.report {
+  background-color: #29c5f6;
+  color: white;
+  font-size: 10px;
+  padding: 1px;
+  padding-left: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.set-report {
+  background-color: lightgray;
+  height: 550px;
+  width: auto;
+}
+.Correspondance {
+  background-color: #29c5f6;
+  color: white;
+  font-size: 10px;
+  padding: 1px;
+  padding-left: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.corres {
+  background-color: lightgray;
+  height: 550px;
+  width: auto;
+}
+
+.fee{
+    background-color: #29c5f6;
+  color: white;
+  font-size: 10px;
+  padding: 1px;
+  padding-left: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.setup{
+  background-color: white;
+  height: 550px;
+  width: auto;
+}
+.export{
+    background-color: #29c5f6;
+  color: white;
+  font-size: 10px;
+  padding: 1px;
+  padding-left: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
